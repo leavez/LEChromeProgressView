@@ -4,6 +4,6 @@
 target 'LEChromeProgressViewDemo' do
   # use_frameworks!
 
-  pod 'LEChromeProgressView' , :path => '../LEChromeProgressView'
+  pod 'LEChromeProgressView' , :path => '../'
 
 end

@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		0C1A29BFF65C6F2801B1BE0058718A19 /* DACircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9C4C76D2B19E39894F6CDACC9F386C /* DACircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F43FEACB0C18DD4C724B1655AF47728 /* DALabeledCircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D2B10D8549E3B4532F66B796E1730E /* DALabeledCircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DD81255E1FF3A89079124AF2129A428 /* LEChromeProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4E482689353FC56AE7741996F155A3 /* LEChromeProgressView-dummy.m */; };
+		2DD81255E1FF3A89079124AF2129A428 /* LEChromeProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C565F47831971EA0AD86A79A289081FB /* LEChromeProgressView-dummy.m */; };
 		5F4AECEF356E35995112F9167B219AD6 /* DACircularProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7961DCDDF61F68050BE67E84B7DD1 /* DACircularProgress-dummy.m */; };
 		7095DD2A30F469428454F0CCC06A1E9F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */; };
 		82AC9861A9FE0BEFEC04D31C3B05ABB2 /* DACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C34F0D416F36FDA405E23B7F3AAC0B /* DACircularProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		98CB5FF03BE214581B97DB2CF3FEA250 /* LEChromeProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C2ABF53E94E8C08729C3D0723F12D8B /* LEChromeProgressView.m */; };
+		98CB5FF03BE214581B97DB2CF3FEA250 /* LEChromeProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B602EBC4E0673377941982341AC6AB2 /* LEChromeProgressView.m */; };
 		AA50A534FAE4BE9559D73FF69B20D3D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
 		C4EC0BB53D4350DB5508B2454246DFB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
-		D0E34431A86897E6FC1717A323223077 /* LEChromeProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E699CDE305462802998A3A6E9F9641 /* LEChromeProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0E34431A86897E6FC1717A323223077 /* LEChromeProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = D93CCE75B73496529F0111055BE80247 /* LEChromeProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7EB9C62DF0A807FCBA2456558D3578B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AAE8973B935FD4979EEDFB8B1E12AC /* Foundation.framework */; };
 		EF9006327AFFDBED3FD589DA04E2D36A /* DALabeledCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC7D14008981964CDFE8760766D9A7F3 /* DALabeledCircularProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F460B52141D2F1CDD6EE89EFDBA4F8BD /* Pods-LEChromeProgressViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC304702F9DB3B6A7E0DCBDC165674 /* Pods-LEChromeProgressViewDemo-dummy.m */; };
@@ -47,16 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19E699CDE305462802998A3A6E9F9641 /* LEChromeProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LEChromeProgressView.h; sourceTree = "<group>"; };
-		2C2ABF53E94E8C08729C3D0723F12D8B /* LEChromeProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LEChromeProgressView.m; sourceTree = "<group>"; };
+		19CC9C355EDC60580D6744A0AD7FF007 /* LEChromeProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEChromeProgressView-prefix.pch"; sourceTree = "<group>"; };
 		2E98FA9CBC407F8D5F34CF79BA176059 /* Pods-LEChromeProgressViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEChromeProgressViewDemo-frameworks.sh"; sourceTree = "<group>"; };
 		30778948EC73FF0CE58876210550031D /* Pods-LEChromeProgressViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEChromeProgressViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		3B4E482689353FC56AE7741996F155A3 /* LEChromeProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEChromeProgressView-dummy.m"; sourceTree = "<group>"; };
+		3B602EBC4E0673377941982341AC6AB2 /* LEChromeProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LEChromeProgressView.m; sourceTree = "<group>"; };
 		3CAA7B42E4F677C0980AE855F835A208 /* Pods-LEChromeProgressViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEChromeProgressViewDemo-resources.sh"; sourceTree = "<group>"; };
 		4069C15CD0EBB9518430B092577E6526 /* Pods-LEChromeProgressViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEChromeProgressViewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		45CDB48E36D80056AF1A5A9037858C6E /* LEChromeProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEChromeProgressView-prefix.pch"; sourceTree = "<group>"; };
 		4FD2464341EB3CA58364896444381EA5 /* libDACircularProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDACircularProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		560667CE7C31EF1C74F562D450EB39F2 /* libLEChromeProgressView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLEChromeProgressView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		574D04DE89D9669DABA16CA588ACD7B5 /* LEChromeProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LEChromeProgressView.xcconfig; sourceTree = "<group>"; };
 		6057D47C04C7A12CECD08616078B794C /* DACircularProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DACircularProgress.xcconfig; sourceTree = "<group>"; };
 		6AB45DEAC9DFA5EE3C5324CF49BEA33F /* Pods-LEChromeProgressViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEChromeProgressViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6F77206C9EF0108AF5219DED43127B87 /* Pods-LEChromeProgressViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEChromeProgressViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -68,7 +67,8 @@
 		AC7D14008981964CDFE8760766D9A7F3 /* DALabeledCircularProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DALabeledCircularProgressView.m; path = DACircularProgress/DALabeledCircularProgressView.m; sourceTree = "<group>"; };
 		AFB7961DCDDF61F68050BE67E84B7DD1 /* DACircularProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DACircularProgress-dummy.m"; sourceTree = "<group>"; };
 		BE9C4C76D2B19E39894F6CDACC9F386C /* DACircularProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DACircularProgressView.h; path = DACircularProgress/DACircularProgressView.h; sourceTree = "<group>"; };
-		DB5C98B4AD6DD636D010D545B964E819 /* LEChromeProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LEChromeProgressView.xcconfig; sourceTree = "<group>"; };
+		C565F47831971EA0AD86A79A289081FB /* LEChromeProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEChromeProgressView-dummy.m"; sourceTree = "<group>"; };
+		D93CCE75B73496529F0111055BE80247 /* LEChromeProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LEChromeProgressView.h; sourceTree = "<group>"; };
 		E5D2B10D8549E3B4532F66B796E1730E /* DALabeledCircularProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DALabeledCircularProgressView.h; path = DACircularProgress/DALabeledCircularProgressView.h; sourceTree = "<group>"; };
 		EB0B5C34B0704CE42DB8ACE437DB6B71 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		FABC304702F9DB3B6A7E0DCBDC165674 /* Pods-LEChromeProgressViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEChromeProgressViewDemo-dummy.m"; sourceTree = "<group>"; };
@@ -103,34 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20D157CF0B9E286092F659E2B845D9C6 /* LEChromeProgressView */ = {
+		17D595E84EDF7A4A742C713FFCAA81D6 /* LEChromeProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				35CD1BCEFFA7A9EDBC0EC63B6CDDC17C /* LEChromeProgressView */,
-				2D32D971E829555AB01434CA57317A66 /* Support Files */,
+				DC5ECDA83FA876EB09209F36412CD6A7 /* LEChromeProgressView */,
+				803852813F09598D6401FA1EBCAD2C85 /* Support Files */,
 			);
 			name = LEChromeProgressView;
-			path = ../../LEChromeProgressView;
-			sourceTree = "<group>";
-		};
-		2D32D971E829555AB01434CA57317A66 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DB5C98B4AD6DD636D010D545B964E819 /* LEChromeProgressView.xcconfig */,
-				3B4E482689353FC56AE7741996F155A3 /* LEChromeProgressView-dummy.m */,
-				45CDB48E36D80056AF1A5A9037858C6E /* LEChromeProgressView-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../LEChromeProgressViewDemo/Pods/Target Support Files/LEChromeProgressView";
-			sourceTree = "<group>";
-		};
-		35CD1BCEFFA7A9EDBC0EC63B6CDDC17C /* LEChromeProgressView */ = {
-			isa = PBXGroup;
-			children = (
-				19E699CDE305462802998A3A6E9F9641 /* LEChromeProgressView.h */,
-				2C2ABF53E94E8C08729C3D0723F12D8B /* LEChromeProgressView.m */,
-			);
-			path = LEChromeProgressView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -152,19 +132,11 @@
 			path = "../Target Support Files/DACircularProgress";
 			sourceTree = "<group>";
 		};
-		7C3BBAA19A01DBC345D70A2B80E3CA8C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				20D157CF0B9E286092F659E2B845D9C6 /* LEChromeProgressView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7C3BBAA19A01DBC345D70A2B80E3CA8C /* Development Pods */,
+				83FADC4068F1DC5581C6BA7D63C3BFA0 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				F92361E67A1E737E2E53D4D4FD251D57 /* Pods */,
 				EB5BFF779441FE44D3251C448808589F /* Products */,
@@ -182,6 +154,25 @@
 				4D9A25D00F6F99C7FDF19E298FDBC9C2 /* Support Files */,
 			);
 			path = DACircularProgress;
+			sourceTree = "<group>";
+		};
+		803852813F09598D6401FA1EBCAD2C85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				574D04DE89D9669DABA16CA588ACD7B5 /* LEChromeProgressView.xcconfig */,
+				C565F47831971EA0AD86A79A289081FB /* LEChromeProgressView-dummy.m */,
+				19CC9C355EDC60580D6744A0AD7FF007 /* LEChromeProgressView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "LEChromeProgressViewDemo/Pods/Target Support Files/LEChromeProgressView";
+			sourceTree = "<group>";
+		};
+		83FADC4068F1DC5581C6BA7D63C3BFA0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D595E84EDF7A4A742C713FFCAA81D6 /* LEChromeProgressView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		89F803C7E2D77E11F2120CB28FE0B795 /* iOS */ = {
@@ -214,6 +205,15 @@
 			);
 			name = "Pods-LEChromeProgressViewDemo";
 			path = "Target Support Files/Pods-LEChromeProgressViewDemo";
+			sourceTree = "<group>";
+		};
+		DC5ECDA83FA876EB09209F36412CD6A7 /* LEChromeProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				D93CCE75B73496529F0111055BE80247 /* LEChromeProgressView.h */,
+				3B602EBC4E0673377941982341AC6AB2 /* LEChromeProgressView.m */,
+			);
+			path = LEChromeProgressView;
 			sourceTree = "<group>";
 		};
 		EB5BFF779441FE44D3251C448808589F /* Products */ = {
@@ -472,7 +472,7 @@
 		};
 		5C9F50228DC02CEC77A25A814A91468D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB5C98B4AD6DD636D010D545B964E819 /* LEChromeProgressView.xcconfig */;
+			baseConfigurationReference = 574D04DE89D9669DABA16CA588ACD7B5 /* LEChromeProgressView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -535,7 +535,7 @@
 		};
 		8E0E4D0FA0857ACFE1BA0129A7B051E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB5C98B4AD6DD636D010D545B964E819 /* LEChromeProgressView.xcconfig */;
+			baseConfigurationReference = 574D04DE89D9669DABA16CA588ACD7B5 /* LEChromeProgressView.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";

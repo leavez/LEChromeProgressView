@@ -10,7 +10,8 @@
     "ios": "8.0"
   },
   "source": {
-    "path": "./"
+    "git": "https://github.com/leavez/LEChromeProgressView",
+    "tag": "0.0.1"
   },
   "source_files": "LEChromeProgressView/*.{h,m}",
   "requires_arc": true,
