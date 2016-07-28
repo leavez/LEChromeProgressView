@@ -12,7 +12,7 @@ prgress view like the one on Chrome's tab bar
   s.license      = "MIT"
   s.author       = "Leave"
   s.platform     = :ios, "8.0"
-  s.source       = { :path => "./" }
+  s.source       = { :git => "https://github.com/leavez/LEChromeProgressView", :tag => "0.0.1" }
   s.source_files  = "LEChromeProgressView/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
