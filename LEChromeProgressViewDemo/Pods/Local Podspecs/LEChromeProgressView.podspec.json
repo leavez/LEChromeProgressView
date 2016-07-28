@@ -1,0 +1,22 @@
+{
+  "name": "LEChromeProgressView",
+  "version": "0.0.1",
+  "summary": "prgress view like the one on Chrome's tab bar",
+  "description": "prgress view like the one on Chrome's tab bar",
+  "homepage": "https://github.com/leavez/LEPhotoCollectionView",
+  "license": "MIT",
+  "authors": "Leave",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "path": "./"
+  },
+  "source_files": "LEChromeProgressView/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "DACircularProgress": [
+      "~> 2.3.1"
+    ]
+  }
+}

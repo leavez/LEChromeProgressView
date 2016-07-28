@@ -1,0 +1,19 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - LEChromeProgressView (0.0.1):
+    - DACircularProgress (~> 2.3.1)
+
+DEPENDENCIES:
+  - LEChromeProgressView (from `../LEChromeProgressView`)
+
+EXTERNAL SOURCES:
+  LEChromeProgressView:
+    :path: ../LEChromeProgressView
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  LEChromeProgressView: f48a7371e4973b42a92689efb4d701c16690b9af
+
+PODFILE CHECKSUM: 99825fc28aeec721ff00254687ea6d40d5ac4790
+
+COCOAPODS: 1.0.1
