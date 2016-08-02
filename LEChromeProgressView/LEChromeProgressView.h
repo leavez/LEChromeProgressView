@@ -22,7 +22,7 @@
 #import <UIKit/UIKit.h>
 
 @interface LEChromeProgressView : UIView
-
+@property (nonatomic) NSTimeInterval waitingStateEndurance;
 @property (nonatomic) UIColor *color;
 
 - (void)setBeginLoading;

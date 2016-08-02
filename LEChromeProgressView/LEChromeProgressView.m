@@ -36,6 +36,7 @@
 
     self.backgroundColor = [UIColor clearColor];
     _color = [UIColor colorWithWhite:0.3 alpha:1];
+    _waitingStateEndurance = 0.15;
 
     // init progress view
     self.progressView = [[DACircularProgressView alloc] init];
@@ -96,19 +97,28 @@
 - (void)setBeginLoading {
     self.hidden = NO;
     [self.progressView setProgress:0 animated:NO];
-    self.waitingView.hidden = NO;
-    self.waitingView.alpha = 1;
-    self.waitingView.indeterminate = YES;
+
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(self.waitingStateEndurance * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+
+        if (self.progressView.progress < 0.001) {
+            self.waitingView.hidden = NO;
+            self.waitingView.alpha = 1;
+            self.waitingView.indeterminate = YES;
+        }
+    });
 }
 
 - (void)setProgress:(CGFloat)progress {
-    if (progress > 0.01) {
-        self.progressView.hidden = NO;
-        [self.progressView setProgress:progress animated:YES];
-        [UIView animateWithDuration:0.3
-                         animations:^{
-                             self.waitingView.alpha = 0;
-                         }];
+    if (progress < 0.01) {
+        return;
+    }
+    self.progressView.hidden = NO;
+    [self.progressView setProgress:progress animated:YES];
+
+    if (self.waitingView.alpha > 0.001) {
+        [UIView animateWithDuration:0.3 animations:^{
+            self.waitingView.alpha = 0;
+        }];
     }
 }
 
