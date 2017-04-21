@@ -116,7 +116,7 @@
     [self.progressView setProgress:progress animated:YES];
 
     if (self.waitingView.alpha > 0.001) {
-        [UIView animateWithDuration:0.3 animations:^{
+        [UIView animateWithDuration:0.15 animations:^{
             self.waitingView.alpha = 0;
         }];
     }

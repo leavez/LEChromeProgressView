@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "LEChromeProgressView"
-  s.version      = "0.0.1"
-  s.summary      = "prgress view like the one on Chrome's tab bar"
+  s.version      = "0.0.2"
+  s.summary      = "progress view like the one on Chrome's tab bar"
 !
   s.description  = <<-DESC
 prgress view like the one on Chrome's tab bar
@@ -12,7 +12,7 @@ prgress view like the one on Chrome's tab bar
   s.license      = "MIT"
   s.author       = "Leave"
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/leavez/LEChromeProgressView", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/leavez/LEChromeProgressView", :tag => s.version.to_s }
   s.source_files  = "LEChromeProgressView/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
